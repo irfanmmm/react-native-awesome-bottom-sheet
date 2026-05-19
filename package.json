@@ -1,0 +1,44 @@
+{
+  "name": "react-native-awesome-bottom-sheet",
+  "version": "1.0.2",
+  "description": "Smooth animated bottom sheet for React Native",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "codegenConfig": {
+    "name": "AwesomeBottomSheetSpec",
+    "type": "modules",
+    "jsSrcsDir": "src"
+  },
+  "author": "irfan <muhammedirfant> ()",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammedirfant/react-native-awesome-bottom-sheet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/muhammedirfant/react-native-awesome-bottom-sheet/issues"
+  },
+  "homepage": "https://github.com/muhammedirfant/react-native-awesome-bottom-sheet#readme",
+  "create-react-native-library": {
+    "type": "library",
+    "languages": "js",
+    "tools": [
+      "eslint",
+      "jest",
+      "lefthook",
+      "release-it"
+    ],
+    "version": "0.62.0"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  }
+}
